@@ -1,5 +1,5 @@
 {% set name = "python-decouple" %}
-{% set version = "3.5" %}
+{% set version = "3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: "68e4b3fcc97e24bc90eecc514852d0bf970f4ff031f5f7a6728ddafa9afefcaf"
+  sha256: 2838cdf77a5cf127d7e8b339ce14c25bceb3af3e674e039d4901ba16359968c7
 
 build:
   number: 0
@@ -18,7 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.6
- 
+
   run:
     - python >=3.6
 
