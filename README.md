@@ -9,6 +9,10 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-decouple
 
 Summary: Strict separation of config from code.
 
+Development: https://github.com/henriquebastos/python-decouple/
+
+Documentation: https://github.com/henriquebastos/python-decouple/blob/master/README.rst
+
 Decouple helps you to organize your settings so that you can change
 parameters without having to redeploy your app.
 
